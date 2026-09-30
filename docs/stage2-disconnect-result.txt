@@ -1,0 +1,14 @@
+﻿
+
+Port    : COM4
+Sent    : 
+Reply   : 
+Success : False
+Blue    : 
+Green   : 
+Error   : Communication failed; current LED state is unknown: Exception calling "Open" with "0" argument(s): "The port 
+          'COM4' does not exist."
+
+
+
+

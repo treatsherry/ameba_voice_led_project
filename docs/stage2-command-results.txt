@@ -1,0 +1,69 @@
+﻿
+
+Port    : COM4
+Sent    : 62342e98 ALL_OFF
+Reply   : ACK 62342e98 OK BLUE=0 GREEN=0
+Success : True
+Blue    : 0
+Green   : 0
+Error   : 
+
+Port    : COM4
+Sent    : 32e69417 BLUE_ON
+Reply   : ACK 32e69417 OK BLUE=1 GREEN=0
+Success : True
+Blue    : 1
+Green   : 0
+Error   : 
+
+Port    : COM4
+Sent    : 6b6a7434 BLUE_ON
+Reply   : ACK 6b6a7434 OK BLUE=1 GREEN=0
+Success : True
+Blue    : 1
+Green   : 0
+Error   : 
+
+Port    : COM4
+Sent    : c4261529 INVALID
+Reply   : ACK c4261529 ERR_COMMAND BLUE=1 GREEN=0
+Success : False
+Blue    : 1
+Green   : 0
+Error   : Board rejected command: ERR_COMMAND
+
+Port    : COM4
+Sent    : cdc74736 GREEN_ON
+Reply   : ACK cdc74736 OK BLUE=1 GREEN=1
+Success : True
+Blue    : 1
+Green   : 1
+Error   : 
+
+Port    : COM4
+Sent    : d17192ba INVALID
+Reply   : ACK d17192ba ERR_COMMAND BLUE=1 GREEN=1
+Success : False
+Blue    : 1
+Green   : 1
+Error   : Board rejected command: ERR_COMMAND
+
+Port    : COM4
+Sent    : d4ee3ed8 STATUS
+Reply   : ACK d4ee3ed8 OK BLUE=1 GREEN=1
+Success : True
+Blue    : 1
+Green   : 1
+Error   : 
+
+Port    : COM4
+Sent    : 91b4563c ALL_OFF
+Reply   : ACK 91b4563c OK BLUE=0 GREEN=0
+Success : True
+Blue    : 0
+Green   : 0
+Error   : 
+
+PASS: command acknowledgements, independent LEDs, invalid commands, repeat command, status, all off.
+
+
